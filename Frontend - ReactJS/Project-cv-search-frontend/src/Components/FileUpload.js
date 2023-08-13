@@ -39,7 +39,7 @@ export default function FileUpload() {
 
     try {
       const response = await axios.post(
-        "http://localhost:9090/api/upload-file",
+        "http://20.231.84.47:9090/api/upload-file",
         data
       );
       setData(response.data);

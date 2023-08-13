@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TextExtractorApplication {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(TextExtractorApplication.class, args);
-		
-		
+		SpringApplication.run(TextExtractorApplication.class, args);	
 	}
 
 }
