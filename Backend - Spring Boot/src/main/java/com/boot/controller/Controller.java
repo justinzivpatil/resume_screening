@@ -39,7 +39,7 @@ public class Controller {
 		user.setMap(wordFinder.match(words, list));
 		user.setMatchpercent(wordFinder.keyMatch(words, list));
 
-		System.out.println("API CALLED");
+		System.out.println("Api Called");
 		
 		return user;
 	}
